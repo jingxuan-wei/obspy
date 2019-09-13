@@ -70,6 +70,8 @@ master:
      to plot after scanning data (see #2227)
    * fix a problem in Scanner when loading npz on Python3 that was written on
      Python2 (see #2413)
+ - obspy.io.dmx:
+   * Add read support for INGV's DMX format (see #2452)
  - obspy.io.mseed:
    * Add ability to write int64 data to mseed if it can safely be downcast 
      to int32 data, otherwise raises ObsPyMSEEDError. (see #2356)
